@@ -2,7 +2,7 @@ def gitUrl = 'git://github.com/jabeaven/hello-world'
 
 folder("generated")
 
-job("generated/hello-world') {
+job('generated/hello-world') {
     scm {
         git(gitUrl)
     }
